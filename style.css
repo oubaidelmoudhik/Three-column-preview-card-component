@@ -159,16 +159,26 @@ h1 {
 .button {
   cursor: pointer;
   background-color: var(--clr-very-light-gray);
-  padding: 0.85rem 2.2rem;
+  padding: 0.7rem 2.2rem;
   border-radius: 4rem;
-  border: none;
+  border: 3px solid var(--clr-very-light-gray);
   font-family: var(--ff-secondary);
   font-size: var(--fs-400);
   font-weight: var(--fw-regular);
 }
-.button:hover {
+.button-bright:hover {
   color: var(--clr-transparent-white);
   background-color: var(--clr-bright-orange);
+  border: 3px solid var(--clr-transparent-white);
+}
+.button-dark:hover {
+  color: var(--clr-transparent-white);
+  background-color: var(--clr-dark-cyan);
+  border: 3px solid var(--clr-transparent-white);
+}
+.button-very-dark:hover {
+  color: var(--clr-transparent-white);
+  background-color: var(--clr-very-dark-cyan);
   border: 3px solid var(--clr-transparent-white);
 }
 
